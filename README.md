@@ -1,3 +1,12 @@
+Disclaimer
+==========
+As always, do not use anything for malicious intent.
+
+Code written by Vincent Yiu of ActiveBreach by MDSec Consulting Ltd (www.mdsec.co.uk)
+
+Description
+===========
+
 This script uses a list from the Equation Group leak from the shadow brokers to provide context to executeables that are running on a system.
 
 Usage
