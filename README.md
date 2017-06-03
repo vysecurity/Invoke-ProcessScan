@@ -1,10 +1,12 @@
 This script uses a list from the Equation Group leak from the shadow brokers to provide context to executeables that are running on a system.
 
-* Usage *
+Usage
+=====
 
 List all processes but do not save:
 
-```List all processes, do not save.
+```
+List all processes, do not save.
 
 PS C:\> Invoke-ProcessScan -SecurityOnly $False
 [*] Starting AV Scan
@@ -60,11 +62,13 @@ explorer.exe              Windows Explorer Shell
 services.exe              Windows Service Controller                                
 wlanext.exe               Windows Wireless LAN Framework                            
 
-[*] Module Complete```
+[*] Module Complete
+```
 
 List only security related processes and save them to a file
 
-```PS C:\> Invoke-ProcessScan -Path security.csv
+```
+PS C:\> Invoke-ProcessScan -Path security.csv
 [*] Starting AV Scan
 
 ProcessName  Description                
@@ -73,4 +77,5 @@ cmdagent.exe !!! Comodo Firewall Pro !!!
 system.exe   !!! LanAgent Monitoring !!!
 
 [*] Data exported to security.csv
-[*] Module Complete```
+[*] Module Complete
+```
