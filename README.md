@@ -4,6 +4,12 @@ As always, do not use anything for malicious intent.
 
 Code written by Vincent Yiu of ActiveBreach by MDSec Consulting Ltd (www.mdsec.co.uk)
 
+Credits
+=======
+Credit to EQGRP for the list
+
+Feel free to submit PR or improvements. You can even take the code and invent your own things, just give a small link back to this repo.
+
 Description
 ===========
 
